@@ -1,0 +1,8 @@
+version: "3"
+services:
+  dart:
+    image: google/dart:2.6-dev
+    volumes:
+      - .:/dart_core_ext
+    working_dir: /dart_core_ext
+    command: /bin/sh

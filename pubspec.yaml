@@ -1,0 +1,10 @@
+name: dart_core_ext
+description: WIP - Dart extension package like ActiveSupport::CoreExt in Ruby.
+author: YusukeIwaki
+homepage: https://github.com/YusukeIwaki/dart_core_ext
+
+environment:
+  sdk: ">=2.6.0-dev.6.0 <3.0.0"
+
+dependencies:
+  test: ^1.9.3
